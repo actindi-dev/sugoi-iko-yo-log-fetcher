@@ -1,0 +1,15 @@
+* suogi-iko-yo-log-fetcher
+
+** Amazon S3に保管されているログデータをダウンロードしてくる
+
+usage:
+
+#+BEGIN_SRC shell
+$ sugoi-iko-yo-log-fetcher start end
+#+END_SRC shell
+
+※start/end は yyyy-mm-dd のISO形式(これ以外の形式の動作はあやしい)
+
+内容物:
+sugoi-iko-yo-log-fetcher: 実行用シェルスクリプト
+*.lisp その他
